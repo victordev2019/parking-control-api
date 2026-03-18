@@ -1,7 +1,8 @@
 # parking-control-api
-A Dúvida que tenho é sobre o formato de Data que não funcionou
-Foi configurado global está na pasta config, no arquivo DateConfig
+Tenho algumas dúvidas em relação ao projeto.
 
-e sobre o Optional, gostaria de entender melhor sobre
-e também gostaria de saber se tem uma outra forma melhor de estruturar o projeto, vi que no controller tem regra de negócio,
-o ideal seria no service?
+A primeira é sobre o formato de data, que não funcionou conforme esperado. Vi que existe uma configuração global na pasta config, no arquivo DateConfig, mas aparentemente ela não está sendo aplicada corretamente. Gostaria de entender o que pode estar faltando ou se existe alguma etapa adicional para garantir que essa configuração funcione.
+
+Também tenho dúvidas sobre o uso de Optional. Gostaria de compreender melhor em quais cenários ele é mais indicado e se existe alguma boa prática específica para utilizá-lo.
+
+Observei que há regras de negócio implementadas diretamente no controller. O ideal seria centralizar essa lógica na camada de service?
